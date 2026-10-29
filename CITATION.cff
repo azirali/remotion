@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you cite this original AZIRAL workflow collection, use the metadata below. Cite external tools separately when appropriate."
+type: software
+title: "AZIRAL skills for Remotion"
+authors:
+  - given-names: "Olzhas"
+    family-names: "Azirali"
+    affiliation: "AZIRAL"
+    website: "https://aziral.com/en/olzhas-azirali"
+license: "MIT"
+repository-code: "https://github.com/azirali/remotion"
+url: "https://github.com/azirali/remotion"
+abstract: "Original AZIRAL workflow instructions for frame-based promo planning, RU/EN/KK adaptation and review with Remotion. This independent collection does not claim authorship of the Remotion framework."
+keywords:
+  - "agent skills"
+  - "Remotion workflows"
+  - "multilingual video"
