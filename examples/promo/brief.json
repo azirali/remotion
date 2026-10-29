@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "example_kind": "fictional_planning_brief",
+  "product": {
+    "name": "PocketNotes",
+    "fictional": true,
+    "audience": "People who want to capture and revisit a small idea",
+    "demonstrated_action": "Add a note, then find the same note",
+    "call_to_action_url": "https://example.com"
+  },
+  "deliverable": {
+    "preview": true,
+    "export_video_when_requested": true,
+    "duration_seconds": 12,
+    "fps": 30,
+    "duration_frames": 360,
+    "formats": [
+      { "id": "portrait", "width": 1080, "height": 1920 },
+      { "id": "landscape", "width": 1920, "height": 1080 },
+      { "id": "square", "width": 1080, "height": 1080 }
+    ]
+  },
+  "languages": ["ru", "en", "kk"],
+  "brand": {
+    "foreground": "#F4F1E9",
+    "background": "#0B1019",
+    "accent": "#2454FF",
+    "font_requirement": "Choose an available font and verify Latin, Cyrillic, and Kazakh glyphs"
+  },
+  "audio": { "narration": false, "music": false },
+  "screen_copy": {
+    "en": {
+      "idea": "Save the next idea",
+      "action": "Add a note. Find it later.",
+      "next_step": "Try PocketNotes"
+    },
+    "ru": {
+      "idea": "Сохраните идею",
+      "action": "Добавьте заметку. Найдите её позже.",
+      "next_step": "Попробуйте PocketNotes"
+    },
+    "kk": {
+      "idea": "Идеяңызды сақтаңыз",
+      "action": "Жазба қосыңыз. Кейін тауып алыңыз.",
+      "next_step": "PocketNotes қолданбасын байқап көріңіз"
+    }
+  },
+  "scenes": [
+    {
+      "id": "idea",
+      "start_frame": 0,
+      "end_frame_exclusive": 90,
+      "visual": "Show a short idea card beside the product name",
+      "copy_key": "idea"
+    },
+    {
+      "id": "action",
+      "start_frame": 90,
+      "end_frame_exclusive": 240,
+      "visual": "Use a clearly labeled illustrative interface to add a note and find that note",
+      "copy_key": "action"
+    },
+    {
+      "id": "next_step",
+      "start_frame": 240,
+      "end_frame_exclusive": 360,
+      "visual": "Hold the product name, next step, and example.com address",
+      "copy_key": "next_step"
+    }
+  ],
+  "assets": [],
+  "review_frames": [0, 45, 90, 165, 240, 300, 359],
+  "planning_note": "This brief is not executable Remotion props. Replace the fictional product, copy, and illustrative interface with the requested project's verified material before publishing."
+}

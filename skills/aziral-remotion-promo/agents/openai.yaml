@@ -1,0 +1,4 @@
+interface:
+  display_name: "AZIRAL Remotion Promo"
+  short_description: "Localized product promos with frame review"
+  default_prompt: "Use $aziral-remotion-promo to build a localized app promo with a frame-based storyboard and local preview."
